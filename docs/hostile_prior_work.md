@@ -1,0 +1,102 @@
+# Hostile Prior Work
+
+- 2025 | Orchard Robot Navigation via an Improved RTAB-Map Algorithm | Applied Sciences
+- 2024 | TTMGNet: Tree Topology Mamba-Guided Network Collaborative Hierarchical Incremental Aggregation for Change Detection | Remote Sensing
+- 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and computer Science
+- 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and Computer Science
+- 2023 | Topological Navigation for Autonomous Underwater Vehicles in Confined Semi-Structured Environments | Sensors
+- 2022 | DE‐SLAM: SLAM for highly dynamic environment | Journal of Field Robotics
+- 2021 | Tracking‐DOSeqSLAM: A dynamic sequence‐based visual place recognition paradigm | IET Computer Vision
+- 2018 | Model-based robocentric planning and navigation for dynamic environments | The International Journal of Robotics Research
+- 2013 | Mining Robotics and Media Change | M/C Journal
+- 2026 | Semantic SLAM for Dynamic Environment | Electronics Letters
+- 2025 | Fast Path Generation Algorithm for Mobile Robot Navigation Using Hybrid Map | Applied Sciences
+- 2025 | Multi-Band Bayesian Particle Filter for Occupancy Grid | SAE Technical Paper Series
+- 2024 | Robot Navigation and Map Construction Based on SLAM Technology | World Journal of Innovation and Modern Technology
+- 2024 | Robust point cloud registration for map-based autonomous robot navigation | EURASIP Journal on Advances in Signal Processing
+- 2023 | Research on Visual SLAM Navigation Techniques for Dynamic Environments | International Journal of Distributed Sensor Networks
+- 2023 | Researches advanced in the SLAM for dynamic environment | Journal of Physics: Conference Series
+- 2023 | DFPC-SLAM: A Dynamic Feature Point Constraints-Based SLAM Using Stereo Vision for Dynamic Environment | Guidance, Navigation and Control
+- 2021 | Deep reinforcement learning for map-less goal-driven robot navigation | International Journal of Advanced Robotic Systems
+- 2019 | Fault-Diagnosing SLAM for Varying Scale Change Detection | 
+- 2019 | Efficient Dense Frontier Detection for 2-D Graph SLAM Based on Occupancy Grid Submaps | IEEE Robotics and Automation Letters
+- 2015 | Semantic Map Building Based on Object Detection for Indoor Navigation | International Journal of Advanced Robotic Systems
+- 2012 | Using Genetic Algorithms for Navigation Planning in Dynamic Environments | Applied Computational Intelligence and Soft Computing
+- None | Visual place recognition for robust autonomous localization in robotics applications | 
+- 2026 | PTAN: Probability-Aware Topological Adaptive Navigation for Mobile Robots in Human-Dense Dynamic Environments | IEEE Transactions on Automation Science and Engineering
+- 2026 | Detection Limits of SLAM for Underground Deformation Monitoring: Experimental Analysis in an In-Situ Environment | 
+- 2026 | Multi-session perception-aware coverage path planning for active semantic SLAM and automatic change detection | Ocean Engineering
+- 2025 | Hybrid Topological Map Construction and Application for Robot Path Planning and Obstacle Avoidance in Complex Local Spaces | International Journal for Housing Science and Its Applications
+- 2025 | Implementation of Map Based Automated Navigation Robot | International Journal of Electrical, Electronics and Computer Systems
+- 2025 | ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments | IEEE Transactions on Pattern Analysis and Machine Intelligence
+- 2025 | Real-Time Navigation in Dynamic Environments Using Intelligent SLAM | 2025 International Conference on Robotics and Mechatronics (ICRM)
+- 2025 | Multi-Robot Reliable Navigation in Uncertain Topological Environments With Graph Attention Networks | IEEE Robotics and Automation Letters
+- 2025 | Loop Closure Detection Based on 3D Panoramic Semantic Topological Map | 2025 International Conference on Computational Intelligence and Robotics (CIR)
+- 2025 | PS-SLAM: A Visual SLAM for Semantic Mapping in Dynamic Outdoor Environment Using Panoptic Segmentation | IEEE Access
+- 2025 | Online Dynamic Object Detection on Construction Sites Using SLAM and Occupancy Grid | Computing in Civil Engineering 2024
+- 2024 | Genetic Algorithm-Based Robot Path Planning with the Extraction of Topological Map | 2024 IEEE Congress on Evolutionary Computation (CEC)
+- 2024 | World-Map Misalignment Detection for Visual Navigation Systems | Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications
+- 2024 | A LiDAR Mapping System for Robot Navigation in Dynamic Environments | IEEE Transactions on Intelligent Vehicles
+- 2024 | Robust Visual SLAM in Dynamic Environment Based on Motion Detection and Segmentation | Journal of Autonomous Vehicles and Systems
+- 2024 | LiDAR SLAM method in outdoor environment based on global descriptor loop detection | 
+- 2024 | DFD-SLAM: Visual SLAM with Deep Features in Dynamic Environment | Applied Sciences
+- 2024 | CPR-SLAM: RGB-D SLAM in dynamic environment using sub-point cloud correlations | Robotica
+- 2023 | Optimising local map updates in a dynamic environment using an object detection method | Ministry of Science and Technology, Vietnam
+- 2023 | Reinforcement learning based path planning using a topological map for mobile service robot | 2023 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)
+- 2023 | Higher topological complexity of a map | Turkish Journal of Mathematics
+- 2023 | ProxMaP: Proximal Occupancy Map Prediction for Efficient Indoor Robot Navigation | 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- 2023 | SLAM based vision self-navigation robot with RTAB-MAP algorithm | Applied and Computational Engineering
+- 2023 | A Deep Learning-Based Visual Map Generation for Mobile Robot Navigation | Eng
+- 2023 | Topological Data Analysis for Navigation in Unstructured Environments | SAE Technical Paper Series
+- 2023 | Robot Collision-Free Navigation in Dynamic Environments using ANFIS | 
+- 2023 | Robust Visual SLAM in Dynamic Environment Based on Moving Detection and Segmentation | 
+- 2023 | PLDS-SLAM: Point and Line Features SLAM in Dynamic Environment | Remote Sensing
+- 2023 | YG-SLAM: GPU-Accelerated RGBD-SLAM Using YOLOv5 in a Dynamic Environment | Electronics
+- 2023 | MVS‐SLAM: Enhanced multiview geometry for improved semantic RGBD SLAM in dynamic environment | Journal of Field Robotics
+- 2023 | Dynamic Occupancy Grid Map Update Method using Camera and LiDAR Object Detection for Autonomous Driving | 2023 3rd International Conference on Robotics, Automation and Artificial Intelligence (RAAI)
+- 2022 | Navigation by Scenarios Using Topological Map | The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)
+- 2022 | Navigation Robot Covid With 3D LiDAR Using RTAB-MAP Method | IOP Conference Series: Earth and Environmental Science
+- 2022 | Performance Improvement of Deep Learning Object Detection Method Using Dynamic Occupancy Grid Map | Transaction of the Korean Society of Automotive Engineers
+- 2021 | Unsupervised Change Detection Using Fuzzy Topology-Based Majority Voting | Remote Sensing
+- 2021 | Network Topology Change-Point Detection from Graph Signals with Prior Spectral Signatures | ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+- 2021 | Research on Intelligent Robot Path Planning Based on Spatiotemporal Grid Map in Dynamic Environment | 2021 5th International Conference on Automation, Control and Robots (ICACR)
+- 2021 | Topological and Semantic Map Generation for Mobile Robot Indoor Navigation | Lecture Notes in Computer Science Intelligent Robotics and Applications
+- 2021 | 2D Topological Map Building by UAVs for Ground Robot Navigation | 2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+- 2021 | Occupancy Map Inpainting for Online Robot Navigation | 2021 IEEE International Conference on Robotics and Automation (ICRA)
+- 2021 | Disruption-Limited Planning for Robot Navigation in Dynamic Environments | 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- 2021 | Fault-Diagnosing Deep-Visual-SLAM for 3D Change Object Detection | Journal of Advanced Computational Intelligence and Intelligent Informatics
+- 2021 | LiDAR-Based Glass Detection for Improved Occupancy Grid Mapping | Sensors
+- 2020 | Graphical Models in Meshed Distribution Grids: Topology Estimation, Change Detection &amp; Limitations | IEEE Transactions on Smart Grid
+- 2020 | Navigation of a mobile robot in a dynamic environment using a point cloud map | Artificial Life and Robotics
+- 2020 | A framework for topological based map building: A solution to autonomous robot navigation in smart cities | Future Generation Computer Systems
+- 2020 | Using Diffusion Map for Visual Navigation of a Ground Robot | Mathematics
+- 2019 | Topological Map Generation for Intrinsic Visual Navigation of an Intelligent Service Robot | 2019 IEEE International Conference on Consumer Electronics (ICCE)
+- 2019 | Uncertainty-Aware Occupancy Map Prediction Using Generative Networks for Robot Navigation | 2019 International Conference on Robotics and Automation (ICRA)
+- 2019 | Character navigation in dynamic environments based on optical flow | Computer Graphics Forum
+- 2019 | Robust path planning for avoiding obstacles using time-environment dynamic map | Measurement and Control
+- 2018 | Blind Graph Topology Change Detection | IEEE Signal Processing Letters
+- 2018 | Autonomous Mobile Robot Intrinsic Navigation Based on Visual Topological Map | 2018 IEEE 27th International Symposium on Industrial Electronics (ISIE)
+- 2018 | Planning Topological Navigation for Complex Indoor Environments | 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- 2018 | Dynamic cognitive maps for agent landmark navigation in unseen environments | Proceedings of the 11th Annual International Conference on Motion, Interaction, and Games
+- 2017 | Topological degree of the map | Mathematical Surveys and Monographs The Projective Heat Map
+- 2017 | Topological entropy of a graph map | Acta Mathematica Sinica, English Series
+- 2017 | Navigation through unknown and dynamic open spaces using topological notions | Connection Science
+- 2017 | Interactive Motion Planning for Mobile Robot Navigation in Dynamic Environments | Journal of Advanced Computational Intelligence and Intelligent Informatics
+- 2016 | Occupancy Map Construction for Indoor Robot Navigation | Robot Control
+- 2015 | Trajectory Planning in Dynamic Environment Based on Partially Map Updating Using Multi-robot System for an Intelligent Wheelchair | 2015 IEEE International Conference on Systems, Man, and Cybernetics
+- 2015 | Mobile Robot Navigation using Topological Map Representations | Journal of the Robotics Society of Japan
+- 2014 | Topological Map Building Based on Thinning | Applied Mechanics and Materials
+- 2014 | Planning approaches to constraint‐aware navigation in dynamic environments | Computer Animation and Virtual Worlds
+- 2012 | A navigation mesh for dynamic environments | Computer Animation and Virtual Worlds
+- 2011 | Simultaneous Path Planning and Topological Mapping (SP2ATM) for environment exploration and goal oriented navigation | Robotics and Autonomous Systems
+- 2009 | A topological approach of path planning for autonomous robot navigation in dynamic environments | 2009 IEEE/RSJ International Conference on Intelligent Robots and Systems
+- 2008 | 3D Perception and Environment Map Generation for Humanoid Robot Navigation | The International Journal of Robotics Research
+- 2004 | Topological Navigation of Simulated Robots using Occupancy Grid | International Journal of Advanced Robotic Systems
+- 1992 | Dynamic Map Building for an Autonomous Mobile Robot | The International Journal of Robotics Research
+- None | Mobile Robot Map Learning from Range Data in Dynamic Environments | Springer Tracts in Advanced Robotics Autonomous Navigation in Dynamic Environments
+- None | Incremental map building for mobile robot navigation in an indoor environment | Proceedings. 1998 IEEE International Conference on Robotics and Automation (Cat. No.98CH36146)
+- None | Social robot navigation in urban dynamic environments | 
+- None | Distributed map-making and navigation in dynamic environments | Proceedings. 1998 IEEE/RSJ International Conference on Intelligent Robots and Systems. Innovations in Theory, Practice and Applications (Cat. No.98CH36190)
+- None | Dynamic Occupancy Grid based Collision Avoidance in Robotics | 
+- 2026 | Beyond the Map: Make Large Language Models Understand the Topological Map for Efficient Multi-robot Exploration | 
+- 2026 | Determining Road Map of Predictive Maintenance | Improving Sustainability and Industrial Efficiency Through Modern Engineering Advancements
