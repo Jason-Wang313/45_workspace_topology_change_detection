@@ -1,0 +1,12 @@
+{
+  "paper": 45,
+  "status": "final_v3_full_scale",
+  "canonical_pdf": "C:/Users/wangz/Downloads/45.pdf",
+  "pages": 25,
+  "bytes": 380492,
+  "sha256": "F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62",
+  "compact_condition_rows": 405504,
+  "represented_trial_evaluations": 7970586624000,
+  "visual_qa": "rendered_25_pages_spot_checked",
+  "local_pdf_removed": true
+}

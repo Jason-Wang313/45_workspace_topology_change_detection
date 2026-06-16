@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "expected_condition_rows": 405504,
+  "actual_condition_rows": 405504,
+  "represented_trial_evaluations": 7970586624000,
+  "figures": [
+    "policy_stress_heatmap.pdf",
+    "unsafe_vs_unnecessary.pdf",
+    "topology_recall_by_perturbation.pdf",
+    "dependency_calibration_curve.pdf",
+    "workspace_failure_map.pdf",
+    "split_generalization.pdf"
+  ],
+  "tables": [
+    "table_scale.tex",
+    "table_main_performance.tex",
+    "table_extractor_summary.tex",
+    "table_stress_summary.tex",
+    "table_perturbation_summary.tex",
+    "table_split_summary.tex",
+    "table_negative_controls.tex",
+    "table_v2_reconciliation.tex"
+  ]
+}

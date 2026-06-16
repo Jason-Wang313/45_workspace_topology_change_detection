@@ -1,0 +1,5 @@
+finding,v2,v3,interpretation
+Old v2 path-touch baseline,0.727,0.436094,Path touch improves in broad cases but still misses indirect dependencies
+Old v2 exact topology clean,1.0,0.9116,"V3 reports approximate audited dependencies, not an oracle-only score"
+Old v2 missed dependencies,0.862,0.891573,Missed dependencies remain the main unsafe failure mode
+Old v2 mixed noise,0.873,0.901925,Mixed miss/spurious noise still hurts but no longer collapses the benchmark

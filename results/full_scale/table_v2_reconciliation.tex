@@ -1,0 +1,11 @@
+% V2-to-v3 reconciliation
+\begin{tabular}{lrrr}
+\toprule
+Finding & V2 & V3 & Interpretation \\
+\midrule
+Old v2 path-touch baseline & 0.727 & 0.436 & Path touch improves in broad cases but still misses indirect dependencies \\
+Old v2 exact topology clean & 1.000 & 0.912 & V3 reports approximate audited dependencies, not an oracle-only score \\
+Old v2 missed dependencies & 0.862 & 0.892 & Missed dependencies remain the main unsafe failure mode \\
+Old v2 mixed noise & 0.873 & 0.902 & Mixed miss/spurious noise still hurts but no longer collapses the benchmark \\
+\bottomrule
+\end{tabular}
