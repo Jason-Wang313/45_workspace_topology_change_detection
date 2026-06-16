@@ -13,7 +13,10 @@ New-Item -ItemType Directory -Force -Path $DataDir | Out-Null
 Push-Location $PaperDir
 try {
     foreach ($pass in 1..3) {
-        pdflatex -interaction=nonstopmode -halt-on-error main.tex | Out-Host
+        pdflatex -interaction=nonstopmode -halt-on-error main.tex | Out-Null
+        if ($LASTEXITCODE -ne 0) {
+            throw "pdflatex failed on pass $pass"
+        }
     }
 
     if (-not (Test-Path -LiteralPath $LocalPdf)) {
@@ -21,12 +24,14 @@ try {
     }
 
     Copy-Item -LiteralPath $LocalPdf -Destination $DownloadsPdf -Force
+    $Hash = (Get-FileHash -LiteralPath $DownloadsPdf -Algorithm SHA256).Hash
     Remove-Item -LiteralPath $LocalPdf -Force
 
     $status = [ordered]@{
         paper = 45
-        decision = "workshop-only"
+        status = "final_v3_full_scale"
         canonical_pdf = $DownloadsPdf
+        canonical_sha256 = $Hash
         local_pdf_removed = -not (Test-Path -LiteralPath $LocalPdf)
         built_at = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss zzz")
     }

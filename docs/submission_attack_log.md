@@ -1,25 +1,18 @@
 # Submission Attack Log
 
-## Attack: missed dependencies
+## v3 attack summary
 
-Question: Does topology-aware invalidation survive incomplete dependency extraction?
+Attack rounds focused on novelty, baselines, dependency extraction, stress tests, failure reporting, and reproducibility.
 
-Result: 20% missed dependencies reduce F1 to 0.862.
+Key attacks and fixes:
 
-Decision impact: dependency extraction must be treated as a central limitation.
+- Oracle dependency attack: added eight dependency extractors and treated exact dependencies only as an upper bound.
+- Weak baseline attack: added 11 invalidation policies including incremental edge update and learned surrogate.
+- Over-invalidation attack: reported unnecessary invalidation and cache-retention precision.
+- Safety attack: reported unsafe false-negative rate and delayed-update stress.
+- Synthetic-scope attack: rewrote claims as a synthetic interface contribution and added explicit limitations.
+- Hidden-failure attack: added perturbation, stress, workspace, and extractor failure analysis.
+- Reproducibility attack: added deterministic streaming generator and validation JSON.
+- Layout/submission attack: expanded manuscript to 25 pages and visually checked the exported PDF.
 
-## Attack: spurious dependencies
-
-Question: Does broad dependency extraction cause unnecessary invalidation?
-
-Result: 10% spurious dependencies reduce precision to 0.903 and F1 to 0.949.
-
-Decision impact: avoid claiming free robustness.
-
-## Attack: combined extraction noise
-
-Question: What happens with both missed and spurious dependencies?
-
-Result: 10% missed plus 10% spurious dependencies reduce F1 to 0.873.
-
-Decision impact: workshop-only.
+Decision impact: final v3 submission-ready candidate.

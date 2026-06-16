@@ -1,0 +1,15 @@
+% Dependency extractor ablation
+\begin{tabular}{lrrrrr}
+\toprule
+Extractor & Prec. & Rec. & F1 & Cal. & Unnec. \\
+\midrule
+exact\_oracle & 0.964 & 0.929 & 0.946 & 0.866 & 0.023 \\
+conservative\_union & 0.940 & 0.897 & 0.918 & 0.753 & 0.037 \\
+cut\_structure & 0.955 & 0.870 & 0.910 & 0.789 & 0.027 \\
+corridor\_skeleton & 0.951 & 0.851 & 0.898 & 0.771 & 0.029 \\
+region\_adjacency & 0.947 & 0.833 & 0.886 & 0.762 & 0.031 \\
+noisy\_learned & 0.942 & 0.835 & 0.885 & 0.735 & 0.034 \\
+semantic\_landmark & 0.944 & 0.821 & 0.878 & 0.744 & 0.032 \\
+path\_cells\_only & 0.951 & 0.731 & 0.827 & 0.690 & 0.025 \\
+\bottomrule
+\end{tabular}

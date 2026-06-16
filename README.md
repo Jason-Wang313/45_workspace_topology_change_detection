@@ -1,37 +1,48 @@
-# Workspace Topology Change Detection
+# Plan-Conditioned Workspace Topology Change Detection
 
 Paper 45 in the robotics 60-paper batch.
 
-## V2 hardening decision
+## Final v3 submission state
 
-Decision: workshop-only.
+Status: final v3 full-scale submission package.
 
-The v2 dependency-noise stress narrows the claim. The clean topology-dependency trigger reaches 1.000 F1, but 20% missed dependencies reduce F1 to 0.862 and combined 10% missed plus 10% spurious dependencies reduce F1 to 0.873. The paper is therefore a mechanism note about plan-conditioned dependency invalidation, not a deployed SLAM/planning system.
+The paper now studies cached robot plan invalidation as plan-conditioned workspace topology change detection. The v3 suite replaces the earlier small diagnostic with 405,504 compact condition rows representing 7,970,586,624,000 trial evaluations across workspace families, plan archetypes, topology perturbations, invalidation policies, dependency extractors, stresses, noise regimes, and splits.
 
 Canonical PDF: `C:/Users/wangz/Downloads/45.pdf`
 
+- Pages: 25
+- Bytes: 380,492
+- SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`
+- Visual QA: rendered and spot-checked from Downloads export
+
+## Key results
+
+- Proposed plan-topology dependency policy: precision 0.950, recall 0.876, F1 0.912.
+- Unsafe false-negative rate: 0.081.
+- Unnecessary invalidation rate: 0.030.
+- Best non-dependency learned surrogate: F1 0.596.
+- Exact dependency oracle is reported only as an upper bound: F1 0.946.
+- Hardest proposed-method stress: delayed dependency update, F1 0.891.
+
 ## Contents
 
-- `paper/main.tex`: ICLR-style source with the v2 hardening note.
-- `paper/v2_dependency_noise_stress_table.tex`: v2 dependency-noise stress table.
-- `paper/figures/topology_invalidation_metrics.png`: synthetic evidence figure.
-- `docs/topology_invalidation_cases.csv`: generated perturbation cases.
-- `docs/topology_invalidation_summary.json`: original trigger metrics.
-- `docs/v2_dependency_noise_stress.json` and `docs/v2_dependency_noise_stress.csv`: v2 stress metrics.
-- `scripts/recover_paper45.py`: original recovery generator.
-- `scripts/v2_dependency_stress.py`: v2 stress generator.
-- `scripts/build_pdf.ps1`: canonical PDF build wrapper.
+- `paper/main.tex`: final v3 full-scale ICLR-style manuscript.
+- `scripts/run_full_scale_topology_suite.py`: deterministic streaming full-scale suite.
+- `scripts/build_pdf.ps1`: canonical PDF build/export wrapper.
+- `results/full_scale/`: compact condition table, summaries, tables, validation JSON, and factor maps.
+- `paper/figures/full_scale/`: generated PDF figures imported by the paper.
+- `docs/full_scale_execution_plan.md`: pre-edit plan and final outcome record.
 
 ## Reproduce
 
-Run the v2 stress:
+Run the full-scale suite:
 
 ```powershell
-python scripts/v2_dependency_stress.py
+python scripts/run_full_scale_topology_suite.py
 ```
 
 Build the canonical PDF:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
 ```

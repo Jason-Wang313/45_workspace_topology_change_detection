@@ -1,13 +1,13 @@
 # Novelty Decision
 
-Decision after v2 hardening: workshop-only.
+Decision after v3 hardening: submission-ready candidate.
 
-Chosen thesis: cached robot plan validity should be tested against topology dependencies of the plan, not only against raw map deltas.
+Chosen thesis: cached robot plan validity should be tested against topology dependencies of the plan, not only against raw map deltas, path overlap, or generic graph-change magnitude.
 
 Reasoning:
-- Map change detection and replanning are crowded areas.
-- The narrower interface, plan-conditioned invalidation, remains a useful mechanism.
-- The evidence is synthetic and dependency sets are hand-defined.
-- V2 dependency-noise stress shows calibrated extraction is required.
+- Dynamic SLAM, occupancy-map change detection, topological navigation, and incremental replanning are crowded.
+- Plan-cache invalidation is a narrower interface target that those areas do not directly optimize.
+- The final benchmark evaluates approximate dependency extractors rather than relying on perfect dependencies.
+- The strongest baselines remain substantially below the proposed plan-topology dependency policy.
 
-Minimal surviving claim: topology-aware cache invalidation is promising when plan dependencies are available and reasonably reliable.
+Minimal supported claim: topology-aware cache invalidation is a strong interface principle when plan dependencies can be exposed or approximated, and it is empirically superior to map-delta controls in the full-scale synthetic benchmark.

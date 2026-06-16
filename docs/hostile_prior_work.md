@@ -5,8 +5,8 @@
 - 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and computer Science
 - 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and Computer Science
 - 2023 | Topological Navigation for Autonomous Underwater Vehicles in Confined Semi-Structured Environments | Sensors
-- 2022 | DE‐SLAM: SLAM for highly dynamic environment | Journal of Field Robotics
-- 2021 | Tracking‐DOSeqSLAM: A dynamic sequence‐based visual place recognition paradigm | IET Computer Vision
+- 2022 | DE-SLAM: SLAM for highly dynamic environment | Journal of Field Robotics
+- 2021 | Tracking-DOSeqSLAM: A dynamic sequence-based visual place recognition paradigm | IET Computer Vision
 - 2018 | Model-based robocentric planning and navigation for dynamic environments | The International Journal of Robotics Research
 - 2013 | Mining Robotics and Media Change | M/C Journal
 - 2026 | Semantic SLAM for Dynamic Environment | Electronics Letters
@@ -52,7 +52,7 @@
 - 2023 | Robust Visual SLAM in Dynamic Environment Based on Moving Detection and Segmentation | 
 - 2023 | PLDS-SLAM: Point and Line Features SLAM in Dynamic Environment | Remote Sensing
 - 2023 | YG-SLAM: GPU-Accelerated RGBD-SLAM Using YOLOv5 in a Dynamic Environment | Electronics
-- 2023 | MVS‐SLAM: Enhanced multiview geometry for improved semantic RGBD SLAM in dynamic environment | Journal of Field Robotics
+- 2023 | MVS-SLAM: Enhanced multiview geometry for improved semantic RGBD SLAM in dynamic environment | Journal of Field Robotics
 - 2023 | Dynamic Occupancy Grid Map Update Method using Camera and LiDAR Object Detection for Autonomous Driving | 2023 3rd International Conference on Robotics, Automation and Artificial Intelligence (RAAI)
 - 2022 | Navigation by Scenarios Using Topological Map | The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)
 - 2022 | Navigation Robot Covid With 3D LiDAR Using RTAB-MAP Method | IOP Conference Series: Earth and Environmental Science
@@ -86,7 +86,7 @@
 - 2015 | Trajectory Planning in Dynamic Environment Based on Partially Map Updating Using Multi-robot System for an Intelligent Wheelchair | 2015 IEEE International Conference on Systems, Man, and Cybernetics
 - 2015 | Mobile Robot Navigation using Topological Map Representations | Journal of the Robotics Society of Japan
 - 2014 | Topological Map Building Based on Thinning | Applied Mechanics and Materials
-- 2014 | Planning approaches to constraint‐aware navigation in dynamic environments | Computer Animation and Virtual Worlds
+- 2014 | Planning approaches to constraint-aware navigation in dynamic environments | Computer Animation and Virtual Worlds
 - 2012 | A navigation mesh for dynamic environments | Computer Animation and Virtual Worlds
 - 2011 | Simultaneous Path Planning and Topological Mapping (SP2ATM) for environment exploration and goal oriented navigation | Robotics and Autonomous Systems
 - 2009 | A topological approach of path planning for autonomous robot navigation in dynamic environments | 2009 IEEE/RSJ International Conference on Intelligent Robots and Systems

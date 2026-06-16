@@ -1,11 +1,34 @@
 # Reproducibility Checklist
 
-- Original recovery command: `python scripts/recover_paper45.py`
-- V2 stress command: `python scripts/v2_dependency_stress.py`
-- PDF build command: `powershell -ExecutionPolicy Bypass -File scripts/build_pdf.ps1`
-- Canonical PDF location: `C:/Users/wangz/Downloads/45.pdf`
-- Local generated paper PDF retained in repo: no.
-- Desktop PDF copy: absent.
-- Original summary: `docs/topology_invalidation_summary.json`
-- V2 stress JSON: `docs/v2_dependency_noise_stress.json`
-- V2 stress CSV: `docs/v2_dependency_noise_stress.csv`
+## Commands
+
+Run full-scale suite:
+
+```powershell
+python scripts/run_full_scale_topology_suite.py
+```
+
+Build canonical PDF:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
+```
+
+## Generated artifacts
+
+- `results/full_scale/condition_metrics.csv`
+- `results/full_scale/experiment_summary.json`
+- `results/full_scale/experiment_validation.json`
+- `results/full_scale/factor_maps.json`
+- `results/full_scale/*_summary.csv`
+- `results/full_scale/table_*.tex`
+- `paper/figures/full_scale/*.pdf`
+- `C:/Users/wangz/Downloads/45.pdf`
+
+## Final PDF metadata
+
+- Pages: 25
+- Bytes: 380,492
+- SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`
+- Local `paper/main.pdf` removed: yes
+- Visual QA: rendered to 25 PNG pages and spot-checked

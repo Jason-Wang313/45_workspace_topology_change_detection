@@ -7,11 +7,12 @@
 - Topological navigation.
 - Incremental replanning.
 - Visual place recognition in changing environments.
+- Generic graph change-point detection.
 
 ## Remaining boundary
 
-Plan-cache invalidation as a separate target variable: detect whether a workspace change touches the graph relations that a cached plan relies on.
+Plan-cache invalidation as a separate target variable: detect whether a workspace change touches the graph, semantic, resource, or manipulation relations that a cached plan relies on.
 
-## V2 boundary update
+## Final v3 boundary
 
-The mechanism depends on calibrated dependency sets. Missing dependencies produce unsafe false negatives, while spurious dependencies produce unnecessary invalidations. Future work must expose, learn, or audit these dependencies from actual planners and maps.
+The paper does not claim a new map updater, topological planner, or hardware robot system. It claims that cached-plan validity should be evaluated against plan-conditioned topology dependencies. The full-scale benchmark supports this claim with approximate dependency extractors, strong baselines, stress tests, negative controls, and explicit failure modes.

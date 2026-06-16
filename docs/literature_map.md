@@ -32,8 +32,8 @@
 - 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and computer Science | crossref
 - 2024 | Enhancing Robotic Navigation in Dynamic Environments | International Journal of Computational Mathematics and Computer Science | crossref
 - 2023 | Topological Navigation for Autonomous Underwater Vehicles in Confined Semi-Structured Environments | Sensors | crossref
-- 2022 | DE‐SLAM: SLAM for highly dynamic environment | Journal of Field Robotics | crossref
-- 2021 | Tracking‐DOSeqSLAM: A dynamic sequence‐based visual place recognition paradigm | IET Computer Vision | crossref
+- 2022 | DE-SLAM: SLAM for highly dynamic environment | Journal of Field Robotics | crossref
+- 2021 | Tracking-DOSeqSLAM: A dynamic sequence-based visual place recognition paradigm | IET Computer Vision | crossref
 - 2018 | Model-based robocentric planning and navigation for dynamic environments | The International Journal of Robotics Research | crossref
 - 2013 | Mining Robotics and Media Change | M/C Journal | crossref
 - 2026 | Semantic SLAM for Dynamic Environment | Electronics Letters | crossref

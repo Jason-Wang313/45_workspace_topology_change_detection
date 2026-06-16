@@ -1,0 +1,398 @@
+{
+  "workspaces": [
+    {
+      "code": "w00",
+      "name": "rooms"
+    },
+    {
+      "code": "w01",
+      "name": "corridor_chain"
+    },
+    {
+      "code": "w02",
+      "name": "dual_corridor"
+    },
+    {
+      "code": "w03",
+      "name": "door_bottleneck"
+    },
+    {
+      "code": "w04",
+      "name": "warehouse_aisles"
+    },
+    {
+      "code": "w05",
+      "name": "shelf_maze"
+    },
+    {
+      "code": "w06",
+      "name": "office_suite"
+    },
+    {
+      "code": "w07",
+      "name": "hospital_ward"
+    },
+    {
+      "code": "w08",
+      "name": "apartment"
+    },
+    {
+      "code": "w09",
+      "name": "industrial_cell"
+    },
+    {
+      "code": "w10",
+      "name": "loading_dock"
+    },
+    {
+      "code": "w11",
+      "name": "elevator_lobby"
+    },
+    {
+      "code": "w12",
+      "name": "stair_interface"
+    },
+    {
+      "code": "w13",
+      "name": "manip_workcell"
+    },
+    {
+      "code": "w14",
+      "name": "tabletop_reach"
+    },
+    {
+      "code": "w15",
+      "name": "bin_picking_zone"
+    },
+    {
+      "code": "w16",
+      "name": "cable_routing"
+    },
+    {
+      "code": "w17",
+      "name": "deformable_barrier"
+    },
+    {
+      "code": "w18",
+      "name": "human_hallway"
+    },
+    {
+      "code": "w19",
+      "name": "looped_atrium"
+    },
+    {
+      "code": "w20",
+      "name": "t_junction_forest"
+    },
+    {
+      "code": "w21",
+      "name": "narrow_passage_maze"
+    },
+    {
+      "code": "w22",
+      "name": "multi_robot_chokepoint"
+    },
+    {
+      "code": "w23",
+      "name": "semantic_room_graph"
+    }
+  ],
+  "plans": [
+    {
+      "code": "p00",
+      "name": "shortest_path"
+    },
+    {
+      "code": "p01",
+      "name": "risk_weighted_path"
+    },
+    {
+      "code": "p02",
+      "name": "homotopy_path"
+    },
+    {
+      "code": "p03",
+      "name": "patrol_loop"
+    },
+    {
+      "code": "p04",
+      "name": "coverage_sweep"
+    },
+    {
+      "code": "p05",
+      "name": "pick_route"
+    },
+    {
+      "code": "p06",
+      "name": "place_route"
+    },
+    {
+      "code": "p07",
+      "name": "inspection_tour"
+    },
+    {
+      "code": "p08",
+      "name": "delivery_chain"
+    },
+    {
+      "code": "p09",
+      "name": "emergency_egress"
+    },
+    {
+      "code": "p10",
+      "name": "human_detour"
+    },
+    {
+      "code": "p11",
+      "name": "handover_route"
+    },
+    {
+      "code": "p12",
+      "name": "semantic_waypoints"
+    },
+    {
+      "code": "p13",
+      "name": "manip_approach"
+    },
+    {
+      "code": "p14",
+      "name": "retreat_retry"
+    },
+    {
+      "code": "p15",
+      "name": "multi_robot_reservation"
+    }
+  ],
+  "perturbations": [
+    {
+      "code": "u00",
+      "name": "cut_edge_closure"
+    },
+    {
+      "code": "u01",
+      "name": "cut_vertex_closure"
+    },
+    {
+      "code": "u02",
+      "name": "off_plan_clutter"
+    },
+    {
+      "code": "u03",
+      "name": "alternate_corridor_loss"
+    },
+    {
+      "code": "u04",
+      "name": "bridge_creation"
+    },
+    {
+      "code": "u05",
+      "name": "bridge_deletion"
+    },
+    {
+      "code": "u06",
+      "name": "landmark_relocation"
+    },
+    {
+      "code": "u07",
+      "name": "semantic_door_relabel"
+    },
+    {
+      "code": "u08",
+      "name": "loop_closure_inconsistency"
+    },
+    {
+      "code": "u09",
+      "name": "map_merge_split"
+    },
+    {
+      "code": "u10",
+      "name": "subgoal_disconnection"
+    },
+    {
+      "code": "u11",
+      "name": "cosmetic_change"
+    }
+  ],
+  "policies": [
+    {
+      "code": "m00",
+      "name": "raw_delta_threshold"
+    },
+    {
+      "code": "m01",
+      "name": "occupancy_iou"
+    },
+    {
+      "code": "m02",
+      "name": "path_touch"
+    },
+    {
+      "code": "m03",
+      "name": "inflated_path_touch"
+    },
+    {
+      "code": "m04",
+      "name": "connectivity_only"
+    },
+    {
+      "code": "m05",
+      "name": "graph_edit_distance"
+    },
+    {
+      "code": "m06",
+      "name": "centrality_change"
+    },
+    {
+      "code": "m07",
+      "name": "semantic_adjacency"
+    },
+    {
+      "code": "m08",
+      "name": "incremental_edge_update"
+    },
+    {
+      "code": "m09",
+      "name": "learned_logistic_surrogate"
+    },
+    {
+      "code": "m10",
+      "name": "plan_topology_dependency"
+    }
+  ],
+  "extractors": [
+    {
+      "code": "e00",
+      "name": "exact_oracle"
+    },
+    {
+      "code": "e01",
+      "name": "path_cells_only"
+    },
+    {
+      "code": "e02",
+      "name": "cut_structure"
+    },
+    {
+      "code": "e03",
+      "name": "corridor_skeleton"
+    },
+    {
+      "code": "e04",
+      "name": "region_adjacency"
+    },
+    {
+      "code": "e05",
+      "name": "semantic_landmark"
+    },
+    {
+      "code": "e06",
+      "name": "noisy_learned"
+    },
+    {
+      "code": "e07",
+      "name": "conservative_union"
+    }
+  ],
+  "stresses": [
+    {
+      "code": "s00",
+      "name": "clean"
+    },
+    {
+      "code": "s01",
+      "name": "missed_dependencies"
+    },
+    {
+      "code": "s02",
+      "name": "spurious_dependencies"
+    },
+    {
+      "code": "s03",
+      "name": "mixed_dependency_noise"
+    },
+    {
+      "code": "s04",
+      "name": "adversarial_chokepoint"
+    },
+    {
+      "code": "s05",
+      "name": "adversarial_off_plan_clutter"
+    },
+    {
+      "code": "s06",
+      "name": "delayed_dependency_update"
+    },
+    {
+      "code": "s07",
+      "name": "semantic_dependency_aliasing"
+    }
+  ],
+  "noises": [
+    {
+      "code": "n00",
+      "name": "clean"
+    },
+    {
+      "code": "n01",
+      "name": "missed_obstacle"
+    },
+    {
+      "code": "n02",
+      "name": "spurious_obstacle"
+    },
+    {
+      "code": "n03",
+      "name": "pose_drift"
+    },
+    {
+      "code": "n04",
+      "name": "delayed_update"
+    },
+    {
+      "code": "n05",
+      "name": "partial_observability"
+    },
+    {
+      "code": "n06",
+      "name": "semantic_label_noise"
+    },
+    {
+      "code": "n07",
+      "name": "dynamic_human_occlusion"
+    },
+    {
+      "code": "n08",
+      "name": "loop_closure_shock"
+    }
+  ],
+  "splits": [
+    {
+      "code": "q00",
+      "name": "in_family"
+    },
+    {
+      "code": "q01",
+      "name": "held_out_workspace"
+    },
+    {
+      "code": "q02",
+      "name": "held_out_plan"
+    },
+    {
+      "code": "q03",
+      "name": "held_out_perturbation"
+    },
+    {
+      "code": "q04",
+      "name": "held_out_noise"
+    },
+    {
+      "code": "q05",
+      "name": "long_horizon"
+    },
+    {
+      "code": "q06",
+      "name": "adversarial_topology"
+    }
+  ]
+}
