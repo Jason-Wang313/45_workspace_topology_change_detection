@@ -20,4 +20,5 @@
 - Rewrote the paper as a 25-page full-scale manuscript.
 - Proposed plan-topology dependency policy reaches precision 0.950, recall 0.876, F1 0.912.
 - Updated canonical PDF: `C:/Users/wangz/Downloads/45.pdf`.
-- SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`.
+- Hardened hyperlink styling to VLA-style visible red internal-reference boxes with green citation/url border defaults for future links.
+- SHA256: `90D1D06ABD953CB99E6091B417F63CB3735D34AB8075D9493FD384FBDCD084A9`.

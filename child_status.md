@@ -14,9 +14,11 @@ Current facts:
 - Canonical PDF built: `C:/Users/wangz/Downloads/45.pdf`.
 - Canonical PDF pages: 25.
 - Canonical PDF bytes: 380,492.
-- Canonical SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`.
+- Canonical SHA256: `90D1D06ABD953CB99E6091B417F63CB3735D34AB8075D9493FD384FBDCD084A9`.
 - Local generated `paper/main.pdf` is removed after build.
-- Visual QA: final Downloads PDF rendered to 25 PNG pages and spot-checked.
+- Visual QA: affected highlight pages 4, 5, 6, 7, 8, and 9 rendered at 160 dpi from the final Downloads PDF.
+- Verified 8 red internal-reference boxes and 8 visible `(0, 0, 1)` link borders.
+- VLA-style red boxes are thin, aligned, readable, and do not collide with text, figures, tables, or captions.
 
 Decision:
 - Submission-ready candidate as a synthetic interface paper with explicit limitations. The supported contribution is plan-conditioned topology-dependency invalidation for cached robot plans, not a deployed SLAM or hardware system.
