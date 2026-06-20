@@ -29,6 +29,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
 
 - Pages: 25
 - Bytes: 380,492
-- SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`
+- SHA256: `90D1D06ABD953CB99E6091B417F63CB3735D34AB8075D9493FD384FBDCD084A9`
 - Local `paper/main.pdf` removed: yes
-- Visual QA: rendered to 25 PNG pages and spot-checked
+- Visual QA: render pages 4, 5, 6, 7, 8, and 9 at 160 dpi and confirm VLA-style red internal-reference boxes are thin, aligned, readable, and collision-free.

@@ -36,7 +36,7 @@ The paper now supports a submission-scale synthetic interface claim. The contrib
 - Canonical PDF: `C:/Users/wangz/Downloads/45.pdf`
 - Pages: 25
 - Bytes: 380,492
-- SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`
+- SHA256: `90D1D06ABD953CB99E6091B417F63CB3735D34AB8075D9493FD384FBDCD084A9`
 - Local tracked/generated PDF: removed after build
-- Visual QA: rendered and spot-checked
+- Visual QA: rendered affected highlight pages 4, 5, 6, 7, 8, and 9 at 160 dpi from the canonical Downloads PDF; verified 8 red internal-reference boxes and 8 visible `(0, 0, 1)` borders with no layout collisions.
 - GitHub URL: `https://github.com/Jason-Wang313/45_workspace_topology_change_detection`

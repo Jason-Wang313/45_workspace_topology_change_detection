@@ -114,6 +114,6 @@ The v3 paper must be rewritten as a full submission-length article:
 - Final manuscript pages: 25.
 - Canonical PDF: `C:/Users/wangz/Downloads/45.pdf`.
 - Canonical bytes: 380,492.
-- Canonical SHA256: `F35FEB74CE3145171E917FA9677FC2E6DD15E3B3B8524274D2BD24C078E40B62`.
-- Visual QA: rendered to 25 PNG pages and spot-checked.
+- Canonical SHA256: `90D1D06ABD953CB99E6091B417F63CB3735D34AB8075D9493FD384FBDCD084A9`.
+- VLA highlight QA: affected pages 4, 5, 6, 7, 8, and 9 rendered at 160 dpi; red internal-reference boxes are visible, thin, aligned, and readable.
 - Local `paper/main.pdf` removed after export.
